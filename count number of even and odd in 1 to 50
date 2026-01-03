@@ -1,0 +1,16 @@
+void main(){
+  var countEven=0,countOdd=0;
+  for(var i = 1;i <=50;i++){
+    if(i%2==0){
+      countEven= countEven+1;
+    }
+    else{
+      countOdd=countOdd+1;
+    }
+  }
+
+
+
+  print ("Even = $countEven");
+  print("Odd = $countOdd");
+}
