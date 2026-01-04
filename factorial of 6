@@ -1,0 +1,10 @@
+// 6 er factorial
+//6x5x4x3x2x1 = 720
+void main (){
+  var factrialOf=6;
+  var multiplication =1;
+  for (var i= factrialOf;i>0;i--){
+multiplication=i*multiplication;
+  }
+  print(multiplication);
+}
